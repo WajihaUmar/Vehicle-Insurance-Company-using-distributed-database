@@ -1,0 +1,78 @@
+body {
+  background-image: url("./images/background.jpeg");
+}
+.navrow {
+  background-color: #000080;
+}
+.navitem {
+  font-size: 18px !important;
+}
+.modal_button {
+  border-radius: 50%;
+  /* color: #000080; */
+}
+.fixedbutton {
+  position: fixed;
+  height: 55px;
+  width: 55px;
+  bottom: 20px;
+  right: 20px; 
+}
+.package_display_main {
+  width: 40%;
+  margin-top: 4%;
+}
+.customer_display_main {
+  width: 80%;
+  margin-top: 4%;
+}
+td,
+th {
+  padding: 0px 20px 10px 20px;
+}
+td {
+  text-align: center;
+  padding-top: 13px;
+  border-bottom: 3px solid #C0C0C0;
+}
+th {
+  border-top: 5px solid #000080;
+  border-bottom: 5px solid #000080;
+  padding-top: 10px ;
+  
+}
+.test {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+.quality-cell {
+  /* height: 285px; */
+  height: 265px;
+  position: relative;
+}
+.img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.quality-cell:hover .img-text {
+  display: none;
+}
+.quality-cell:hover .quality-discr {
+  display: block !important;
+}
+.quality-cell:hover {
+  /* box-shadow: 5px 10px 18px #888888; */
+  box-shadow: 0px 0px 11px 1px #747272;
+}
+.quality-discr {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  font-size: 18px;
+}
+.text-disc {
+  top: 32%;
+}

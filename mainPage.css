@@ -1,0 +1,175 @@
+html {
+  scroll-behavior: smooth;
+}
+.navrow {
+  background-color: #000080;
+}
+.navitem {
+  font-size: 18px !important;
+}
+
+h2::after {
+ content: '';
+ background: #000080;
+ display: block;
+ height: 4px;
+ margin: auto;
+ margin-top: 2px;
+}
+.about-heading::after {
+  width: 90px;
+}
+.services-heading::after {
+  width: 180px;
+}
+.team-heading::after {
+  width: 230px;
+}
+.contact-heading::after {
+  width: 170px;
+}
+.testimonial-heading::after {
+  width: 200px;
+}
+.faq-heading::after {
+  width: 380px;
+}
+
+/* HOME SECTION */
+#carouselExampleIndicators {
+  height: 550px;
+}
+.home {
+  height: 550px;
+}
+.HomeHeading,
+.HomeHeading1 {
+  font-size: 60px;
+}
+.homeHeadingDiv {
+  line-height: 5em;
+}
+.HomeHeading {
+  margin-bottom: 0%;
+}
+.homeDisc {
+  font-size: 18px;
+  line-height: 2em !important;
+  margin-bottom: 5%;
+}
+.homeBtn {
+  font-size: 22px;
+  margin-bottom: 8%;
+}
+
+/* ABOUT SECTION */
+.about-image{
+  width: 100%;
+  height: 370px;
+
+}
+.about-top-text{
+  width: 50%;
+}
+.about-first-section{
+  display: flex;
+  justify-content: center;
+}
+.about-image-wrapper{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.about-des-section{
+  border: 1px solid rgb(218, 215, 215);
+  box-shadow: 0px 0px 11px 1px rgb(173, 172, 172);
+}
+
+/* SERVICES SECTION */
+.serviceIcon {
+  height: 100px;
+  width: 100px;
+}
+
+/* TEAM SECTION */
+.team-images{
+  width: 85%;
+  height: 250px;
+  border-radius: 30px;
+}
+.team-descriptipn{
+  border-top:1px solid rgb(196, 195, 195);
+  border-bottom:1px solid rgb(199, 196, 196)
+}
+.team-icon:hover{
+  color:#000080 !important;
+}
+
+/* PARALLAX SECTION */
+.parallax {
+  background-image: url("./images/Parallax.jpg");
+  height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax_text {
+  font-size: 25px;
+  top: 5%;
+}
+
+/* CONTACT SECTION */
+.contactDiv {
+  width: 60%;
+}
+.contactBtn,
+.contactBtn:hover,
+.contactBtn:active {
+  background-color: #000080 !important;
+  border: 1px solid #000080 !important;
+}
+
+/* TESTIMONIAL SECTION */
+#carouselDiv {
+  height: 380px !important;
+}
+.test {
+  height: 380px !important;
+}
+.TestimonialDiv {
+  background-color: white;
+  border-radius: 8%;
+}
+.personDetail {
+  border-top: 3px solid grey;
+}
+.personPic {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+/* FAQs SECTION */
+.faq-text {
+  width: 65%;
+}
+.faq-q {
+  font-size: 18px;
+}
+
+/* FOOTER SECTION */
+.foot{
+  height: 100px;
+  background-color: grey;
+}
+
+.upArrow {
+  position: fixed;
+  height: 55px;
+  width: 58px;
+  bottom: 15px;
+  right: 15px;
+}
+
+
